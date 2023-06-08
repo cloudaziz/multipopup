@@ -5,11 +5,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multiple Popup with JavaScript</title>
+    <title>Multi Popup</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
+    <button data-modal-target="#modal" id="openModalBtn" class="openModal">Open Modal</button>
+    <button data-modal-target="#modal1" id="openModalBtn">Open Popup-1</button>
+    <div class="modal" id="modal" data-modal-close>
+        <div class="modal-header">
+            <div class="title">Example Modal-1</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="modal-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore inventore nulla nemo quasi aut, numquam,
+            exercitationem, expedita saepe harum maxime esse excepturi provident ut commodi. Perferendis, fugit tempora,
+            quia ipsam porro aliquam quaerat totam quo, eos dicta quisquam laboriosam dolor accusamus nesciunt iure?
+            Nisi deleniti quas qui, aut illum minima repellendus, ipsum, in quaerat laboriosam corrupti dolore tenetur
+            cumque tempore! Ad at tempore, autem perspiciatis voluptas et praesentium velit, repellat temporibus,
+            asperiores rerum nesciunt. Saepe eos explicabo repudiandae esse, molestiae voluptas labore pariatur amet
+            placeat, est cum excepturi cumque, deserunt aut maxime hic iusto facere! Quasi, ratione? Inventore, nobis
+            iste?
+        </div>
+    </div><!-- ./modal -->
+    <div class="modal" id="modal1" data-modal-close>
+        <div class="modal-header">
+            <div class="title">Example Modal-2</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="modal-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore inventore nulla nemo quasi aut, numquam,
+            exercitationem, expedita saepe harum maxime esse excepturi provident ut commodi. Perferendis, fugit tempora,
+            quia ipsam porro aliquam quaerat totam quo, eos dicta quisquam laboriosam dolor accusamus nesciunt iure?
+            Nisi deleniti quas qui, aut illum minima repellendus, ipsum, in quaerat laboriosam corrupti dolore tenetur
+            cumque tempore! Ad at tempore, autem perspiciatis voluptas et praesentium velit, repellat temporibus,
+            asperiores rerum nesciunt. Saepe eos explicabo repudiandae esse, molestiae voluptas labore pariatur amet
+            placeat, est cum excepturi cumque, deserunt aut maxime hic iusto facere! Quasi, ratione? Inventore, nobis
+            iste?
+        </div>
+    </div><!-- ./modal -->
+    <div id="overlay"></div>
 
+    <!-- <div id="modal" aria-hidden="true" aria-labelledby="modalTitle" aria-describedby="modalDescription" role="dialog">
+    </div> -->
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
