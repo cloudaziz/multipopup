@@ -44,35 +44,3 @@ window.addEventListener('keydown', (e) => {
     closeModal(modal);
   });
 });
-
-/* const openModalButton = document.querySelector('#openModalBtn');
-const closeModalButton = document.querySelector('.close-button');
-
-const modal = document.querySelector('#modal');
-const overlay = document.getElementById('overlay');
-
-openModalButton.addEventListener('click', () => {
-  modal.classList.add('active');
-  overlay.classList.add('active');
-});
-
-closeModalButton.addEventListener('click', () => {
-  modal.classList.remove('active');
-  overlay.classList.remove('active');
-});
-
-overlay.addEventListener('click', () => {
-  modal.classList.remove('active');
-  overlay.classList.remove('active');
-}); */
-
-/* const modal = document.querySelector('#modal');
-// const overlay = document.getElementById('overlay');
-
-window.addEventListener('keydown', (e) => {
-  //   console.log(e.keyCode);
-  if (e.keyCode == 27) {
-    modal.classList.remove('active');
-    overlay.classList.remove('active');ß
-  }
-}); */
